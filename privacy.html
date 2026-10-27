@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Privacy Policy: Grandpa Runs Sidewalk Splat</title>
-  <meta name="description" content="How Grandpa Runs Sidewalk Splat handles data: optional gameplay analytics and purchase records.">
+  <meta name="description" content="How Grandpa Runs Sidewalk Splat handles data: optional gameplay statistics and purchase records.">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="icon.png">
 </head>
@@ -17,82 +17,169 @@
   <nav><a href="./">Home</a><a href="support.html">Support</a><a href="privacy.html">Privacy Policy</a></nav>
 
   <h1>Privacy Policy</h1>
-  <p class="muted">Last updated: October 8, 2026</p>
+  <p class="muted">Last updated: October 27, 2026</p>
   <p>This policy explains what the game Grandpa Runs Sidewalk Splat (the "game") collects and why.
-  "We" means the developer of the game. Questions or requests:
-  <a href="mailto:twocrazymojo@yahoo.com">twocrazymojo@yahoo.com</a>.</p>
+  The game is made and published by Christopher Hall under the name Oak Street Games. "We" means
+  Christopher Hall, publishing as Oak Street Games, who decides how the game's data is used.
+  Questions or requests: <a href="mailto:twocrazymojo@yahoo.com">twocrazymojo@yahoo.com</a>.</p>
 
   <h2>The short version</h2>
   <ul>
     <li>You can play without an account and without sharing anything.</li>
-    <li>If you choose <strong>Share Analytics</strong>, the game sends gameplay data to help us improve
-    difficulty and performance. It includes a random ID created for your installation, never your
-    name. You can stop at any time.</li>
+    <li>Gameplay statistics are short summaries of how levels go, such as where runs end, so we can
+    improve the levels, their difficulty and the in-game shop. They carry a random ID that changes
+    every day, never your name. The game asks first, and you can turn them off at any time.</li>
     <li>If you buy shards, Apple handles the payment. We keep a record of the purchase so your shards
-    are credited exactly once.</li>
+    are credited exactly once. That record is kept apart from gameplay statistics.</li>
     <li>No ads, no advertising or tracking tools, and we do not sell or share your data with
     advertisers or data brokers.</li>
   </ul>
 
-  <h2>Gameplay analytics (optional)</h2>
-  <p>The first time you open the game it asks whether to share gameplay analytics. Nothing is
-  collected before you choose, and nothing is collected if you choose <strong>No Thanks</strong>.
-  You can change your choice at any time in <strong>User Settings</strong> on the title screen
-  (Share Gameplay Analytics). The game plays exactly the same either way.</p>
-  <p>If you share analytics, the game sends:</p>
-  <ul>
-    <li>how you play: when a session or level starts and ends, results and times, where and how you
-    were hit, checkpoints and retries, how far you got, the shop screens you opened and the outfits
-    you looked at, bought with shards or wore, and shards earned;</li>
-    <li>how the game runs: frame-rate summaries;</li>
-    <li>about the device: the device category (phone or tablet), the screen size, the app version and
-    build, the iOS version and the device model (for example "iPhone15,2");</li>
-    <li>a random analytics ID created for this installation. It is not your Apple Account, not an
-    advertising identifier, and not the ID used for purchases.</li>
-  </ul>
-  <p>We do not collect your name, email address, contacts, location, photos, microphone or anything
-  you type. Your IP address is used only briefly, as a salted one-way hash, to limit abuse; it is not
-  stored with your data.</p>
-  <p><strong>Where it goes:</strong> our own database, hosted for us by Supabase in Canada. It is used
-  only to understand and improve the game, and is not shared with anyone else.
-  <strong>How long:</strong> raw gameplay data is deleted after 400 days; summary reports that cannot
-  identify you may be kept longer.</p>
-  <p><strong>Stop and delete:</strong> turn Share Gameplay Analytics off in User Settings. Collection
-  stops, and the analytics ID and any unsent data are deleted from your device. To delete data already
-  sent, note the Analytics ID shown in User Settings before you turn sharing off, and email it to us;
-  we will delete it.</p>
+  <h2 id="statistics">Gameplay statistics (optional)</h2>
+  <p>This section describes version 2.0 of the game and later. If you still use version 1.0.0, see
+  <a href="#earlier-versions">Version 1.0.0</a> below.</p>
+  <p>Gameplay statistics help us improve the levels, their difficulty and the in-game shop. The first
+  time you open the game it asks whether to share them (<strong>Share Analytics</strong> or
+  <strong>No Thanks</strong>). Nothing is collected before you choose, and nothing is collected if you
+  choose No Thanks. This is the same in every country. An answer you already gave with an earlier
+  version (Share Analytics, No Thanks, or turning the old switch off) is kept. You can change your
+  choice at any time in <strong>User Settings</strong> on the title screen
+  (<strong>Share Gameplay Statistics</strong>). The game plays exactly the same either way, and your
+  rewards and purchases do not depend on it.</p>
 
-  <h2>Purchases (100 Poop Shards)</h2>
+  <p>If you share, the game sends:</p>
+  <ul>
+    <li><strong>One summary for each level attempt:</strong> which level and which version of it,
+    whether you started from the beginning or from a checkpoint, how the attempt ended (a win, a
+    knockout, a restart, quitting, or the app closing), how long you played it, how far you got, how
+    many hearts you lost in each tenth of the level, what took your last heart (for example "a
+    falling poop near the end of Level 2"), and for a win its time and medal;</li>
+    <li><strong>How long you play:</strong> minutes with the app open and minutes actually playing,
+    and whether this is the first time this copy of the game has sent anything;</li>
+    <li><strong>Shop spending:</strong> which outfit, outfit set or bonus hearts you bought with
+    shards, the price, how many of those shards you earned in the game and how many you bought, and
+    whether it went through;</li>
+    <li>the app's version and build, whether it came from the App Store or a test build, and the
+    date on your device.</li>
+  </ul>
+
+  <p><strong>The daily ID.</strong> Each summary carries a random ID that your device makes up
+  each calendar day and deletes when the day changes. It is not made from your device, your IP
+  address, your Apple Account or anything else, and it is not the ID used for purchases or an
+  advertising identifier. It lets us count how many copies of the game were played on a day and
+  connect that day's summaries to each other. It does not let us connect one day to another, so we
+  cannot tell whether you came back. Data with a daily ID is <em>pseudonymous</em>, not anonymous:
+  it does not name you, but it is still treated as personal data.</p>
+
+  <p><strong>Not in the summaries:</strong> your name, email address, contacts, location, photos,
+  microphone, anything you type, exact times, your device model, operating system version or
+  screen size. (Our host's request logs are different: see "Where it goes".)</p>
+
+  <p><strong>Why:</strong> to see which levels, checkpoints and obstacles are too hard or too easy,
+  how much the game is played, and how the shop is used, so we can fix and improve the levels, their
+  difficulty and the in-game shop. We never use it for advertising, to contact you or to build a
+  profile of you.</p>
+
+  <p><strong>Where it goes:</strong> our own database, hosted for us by Supabase in Canada (on
+  Amazon Web Services; Supabase's network provider, Cloudflare, handles the connection). Like any
+  website, our host sees your IP address when the game connects. Our database does not store it: for
+  less than half an hour we keep a scrambled, one-way version of it to stop floods of fake data, and each
+  summary is stored with the date it arrived. Supabase's own request logs keep, for 7 days, the IP
+  address, an approximate location worked out from it (such as country, region, city and postal
+  code), the kind of device and its iOS version as the game's web view reports them, and technical
+  details of the connection, for security and fixing problems. These logs do not hold the summaries
+  or the daily ID; we do not copy them into our database or use them to identify players. This
+  applies to every connection the game makes to us, including purchases.</p>
+
+  <p><strong>AI tools:</strong> we may use an AI tool, such as ChatGPT, to help us understand our
+  statistics. The review files we prepare for this hold daily totals with no IDs (for example
+  "Level 2, Tuesday: 140 attempts, 61 wins"), not the summaries themselves.</p>
+
+  <p><strong>How long:</strong> summaries with a daily ID are deleted 35 days after their day.
+  Before that they are counted into daily totals that contain no ID at all (for example how many
+  attempts Level 2 had on a day); those totals are deleted after 25 months.</p>
+
+  <p><strong>Stop and delete:</strong> turn <strong>Share Gameplay Statistics</strong> off in User
+  Settings. Collection stops at once: the summaries not yet sent and today's ID are deleted from your
+  device, and the game stops waiting for any send still under way. Turning it off does not delete
+  anything our server already received (a send under way may already have arrived). To delete what
+  was already sent, note <strong>today's statistics ID</strong> shown in User Settings while sharing
+  and email it to us; we will delete that day's summaries and recount the totals without them.
+  (After 35 days they are already gone.)</p>
+
+  <h2 id="earlier-versions">Version 1.0.0</h2>
+  <p>Version 1.0.0 of the game asks the same question first (Share Analytics or No Thanks), and
+  collects nothing unless you choose Share Analytics. If you do, it sends more detailed gameplay
+  data than version 2.0: each gameplay event (for example each hit, with where in the level it
+  happened), visits and play time, cutscenes, the shop screens you opened, frame-rate summaries, the
+  device model, iOS version and screen size, and one random analytics ID that stays the same until
+  you turn sharing off or delete the app. It goes to the same database and through the same host as
+  described above, and is kept for 400 days after it arrived, then deleted. To stop it, turn
+  <strong>Share Gameplay Analytics</strong> off in User Settings: collection stops and the data not
+  yet sent and the analytics ID are deleted from your device. To delete what was already sent, note
+  the <strong>Analytics ID</strong> shown in User Settings while sharing and email it to us.</p>
+  <p>Updating to version 2.0 stops this detailed data: the update deletes any of it not yet sent,
+  and never sends it. If you shared with version 1.0.0, version 2.0's User Settings still shows that
+  <strong>earlier analytics ID</strong> while you share, so you can ask us to delete what version
+  1.0.0 sent; turning sharing off deletes the ID from your device.</p>
+
+  <h2 id="purchases">Purchases (100 Poop Shards)</h2>
   <p>Payments are processed by Apple; we never see your card or Apple Account details. To credit your
   shards exactly once and keep your balance, our wallet server keeps: Apple's transaction ID, the
   product, the purchase date, the environment (test or real), a random wallet ID created on your device
   (also sent to Apple with the purchase), a one-way hash of a random device secret, your shard balance
   and what you spent bought shards on. Apple may notify us of refunds; we record them. This is needed
-  for purchases to work, so it is not optional. It is kept in the same Supabase database in Canada,
-  separately from analytics, and is never used for analytics or advertising. We keep purchase records
-  for as long as the game offers purchases and as long as needed for our accounting and tax obligations.
+  for purchases to work, so it is not optional, and it works the same whether or not you share
+  statistics. It is kept in the same Supabase database in Canada, separately from gameplay
+  statistics, and is never connected to them or used for advertising. To see how the shop is doing,
+  we look at daily totals from these records (for example how many packs were bought on a day), with
+  no IDs. We keep purchase records while the game offers purchases, so bought shards stay credited,
+  and afterwards for as long as our accounting and tax records require. They are not deleted
+  automatically: you can ask us to delete yours, and we will keep only what those records require.
   Bought shards do not expire.</p>
 
+  <h2 id="review">Rating prompt</h2>
+  <p>From version 2.0, after you finish Level 2, the game may ask Apple, once, to show its standard
+  rating prompt.
+  Apple decides whether it appears. We do not learn whether it appeared or what you chose, and the
+  game keeps only a note on your device that it asked, so it never asks again.</p>
+
   <h2>Data stored only on your device</h2>
-  <p>Your progress, best times, medals, earned shards, costumes, settings and your analytics choice are
-  stored on your device, in the game's own storage. Deleting the game deletes them.</p>
+  <p>Your progress, best times, medals, earned shards, costumes and settings, your statistics choice,
+  a note of whether this copy of the game was first installed with version 2.0 or earlier, the
+  statistics waiting to be sent with today's ID, the earlier analytics ID (if you shared with version
+  1.0.0) and the rating-prompt note are stored on your device, in the game's own storage. Deleting
+  the game deletes them; a new installation afterwards starts as new.</p>
 
   <h2>Children</h2>
-  <p>The game is made for a general audience. It is not designed for or directed to children under 13,
-  and we do not knowingly collect personal information from children. Analytics are off unless Share
-  Analytics is chosen and never include a name or contact details. If you believe a child has shared
-  analytics, email us the Analytics ID and we will delete that data. Purchases can be blocked with
-  Screen Time.</p>
+  <p>The game is made for a general audience. It is not designed or marketed specifically for
+  children under 13, and we do not knowingly collect personal information from children under 13.
+  Gameplay statistics never include a name or contact details. They are used only for the game's internal operations: to
+  analyze how the game works so we can improve its levels, difficulty and shop, and to send them to
+  our server (which sees the device's IP address). We make sure the daily ID and the IP address are
+  never used to contact anyone, to build a profile of anyone, for advertising or for any other
+  purpose: the ID changes every day and is never linked to any other ID, the game contains no advertising or
+  third-party analytics code, our database never stores the IP address, and summaries are deleted
+  after 35 days. If you believe a child has shared statistics, turn them off in User Settings and
+  email us today's statistics ID (in version 1.0.0, the Analytics ID) and we will delete that data.
+  Purchases can be blocked with Screen Time.</p>
 
-  <h2>Your choices and requests</h2>
-  <p>You can stop analytics at any time in User Settings. To ask what data we hold about your
-  installation, or to have it deleted, email us with your Analytics ID (for analytics) or the date of
-  your purchase and Apple's order ID (for purchase records).</p>
+  <h2 id="choices">Your choices and rights</h2>
+  <p>You can stop sharing at any time in User Settings. Depending on where you live, you may have the
+  right to ask what data we hold about you, to correct or delete it, to object to its use or to take
+  back your consent (which does not affect what happened before). Email us with today's statistics
+  ID or the earlier analytics ID (for statistics) or the date of your purchase and Apple's order ID
+  (for purchase records). We use gameplay statistics only with your consent (Share Analytics), and
+  purchase records because we need them to provide what you bought. Our host's request logs serve
+  the security and running of the service. You can also complain to your local data protection
+  authority.</p>
 
   <h2>Changes</h2>
-  <p>We will post any changes on this page with a new date.</p>
+  <p>We will post any changes on this page with a new date. If a version of the game ever shares
+  statistics by default somewhere instead of asking first, we will update this page before that
+  version is released, and the game will tell you and show how to turn them off.</p>
 
-  <footer>Grandpa Runs Sidewalk Splat. Contact: <a href="mailto:twocrazymojo@yahoo.com">twocrazymojo@yahoo.com</a>.</footer>
+  <footer>Grandpa Runs Sidewalk Splat by Oak Street Games. Contact: <a href="mailto:twocrazymojo@yahoo.com">twocrazymojo@yahoo.com</a>.</footer>
 </main>
 </body>
 </html>
