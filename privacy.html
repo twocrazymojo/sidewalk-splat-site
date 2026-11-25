@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Privacy Policy: Grandpa Runs Sidewalk Splat</title>
-  <meta name="description" content="How Grandpa Runs Sidewalk Splat handles data: optional gameplay statistics and purchase records.">
+  <meta name="description" content="How Grandpa Runs Sidewalk Splat handles data: optional gameplay statistics, purchase records and Play a Friend.">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="icon.png">
 </head>
@@ -17,7 +17,7 @@
   <nav><a href="./">Home</a><a href="support.html">Support</a><a href="privacy.html">Privacy Policy</a></nav>
 
   <h1>Privacy Policy</h1>
-  <p class="muted">Last updated: October 28, 2026</p>
+  <p class="muted">Last updated: November 25, 2026</p>
   <p>This policy explains what the game Grandpa Runs Sidewalk Splat (the "game") collects and why.
   The game is made and published by Christopher Hall under the name Oak Street Games. "We" means
   Christopher Hall, publishing as Oak Street Games, who decides how the game's data is used.
@@ -28,9 +28,13 @@
     <li>You can play without an account and without sharing anything.</li>
     <li>Gameplay statistics are short summaries of how levels go, such as where runs end, so we can
     improve the levels, their difficulty and the in-game shop. They carry a random ID that changes
-    every day, never your name. The game asks first, and you can turn them off at any time.</li>
+    every day, never your name. They are off unless you turn them on, and you can turn them off at
+    any time.</li>
     <li>If you buy shards, Apple handles the payment. We keep a record of the purchase so your shards
     are credited exactly once. That record is kept apart from gameplay statistics.</li>
+    <li>If you use Play a Friend, our server keeps the username you choose, your picture, your friends,
+    blocks and finished matches, so you can play your friends. You can delete your username in the
+    game at any time.</li>
     <li>No ads, no advertising or tracking tools, and we do not sell or share your data with
     advertisers or data brokers.</li>
   </ul>
@@ -38,14 +42,16 @@
   <h2 id="statistics">Gameplay statistics (optional)</h2>
   <p>This section describes version 2.0 of the game and later. If you still use version 1.0.0, see
   <a href="#earlier-versions">Version 1.0.0</a> below.</p>
-  <p>Gameplay statistics help us improve the levels, their difficulty and the in-game shop. The first
-  time you open the game it asks whether to share them (<strong>Share Analytics</strong> or
-  <strong>No Thanks</strong>). Nothing is collected before you choose, and nothing is collected if you
-  choose No Thanks. This is the same in every country. An answer you already gave with an earlier
-  version (Share Analytics, No Thanks, or turning the old switch off) is kept. You can change your
-  choice at any time in <strong>User Settings</strong> on the title screen
-  (<strong>Share Gameplay Statistics</strong>). The game plays exactly the same either way, and your
-  rewards and purchases do not depend on it.</p>
+  <p>Gameplay statistics help us improve the levels, their difficulty and the in-game shop. They are
+  off until you turn them on: in <strong>User Settings</strong> on the title screen, turn
+  <strong>Share Gameplay Statistics</strong> on, read what is shared, and choose
+  <strong>Share Analytics</strong>. The game does not ask when it starts (version 2.0.1 and earlier
+  ask once, the first time you open the game, with <strong>Share Analytics</strong> or
+  <strong>No Thanks</strong>). Nothing is collected before you turn them on, and nothing is collected
+  if you leave them off. This is the same in every country. An answer you already gave with an earlier
+  version (Share Analytics, No Thanks, or turning the old switch off) is kept. You can turn them off at
+  any time in the same place. The game plays exactly the same either way, and your rewards, purchases
+  and Play a Friend do not depend on it.</p>
 
   <p>If you share, the game sends:</p>
   <ul>
@@ -138,6 +144,78 @@
   automatically: you can ask us to delete yours, and we will keep only what those records require.
   Bought shards do not expire.</p>
 
+  <h2 id="play-a-friend">Play a Friend (multiplayer)</h2>
+  <p><strong>Play a Friend</strong> lets you race a friend live: one of you runs as the boy and the
+  other plays Grandpa, then you swap. It is optional. Nothing below happens unless you open Play a
+  Friend and choose a username, and it works the same whether or not you share statistics.</p>
+
+  <p><strong>What you give us:</strong> a <strong>username</strong> you choose (3 to 16 letters,
+  numbers or _), and, if you want, one of the game's own <strong>profile pictures</strong>. No email,
+  password, real name, phone number or Apple Account. There is no chat and no free text: the only
+  things that pass between players are usernames, the game's own pictures, friend requests, invites,
+  and the moves made in a match.</p>
+
+  <p><strong>What our duel server keeps</strong> while you have a username:</p>
+  <ul>
+    <li><strong>Your profile:</strong> a random player ID, your username, a one-way hash of the
+    random sign-in key your device keeps (never the key itself), when you joined, your picture, your
+    friends, friend requests sent and received, and the players you blocked;</li>
+    <li><strong>Completed matches:</strong> when, the course, the two players' IDs (never their
+    names), both runs (finished or not, the time, how far, the points) and the result. They give your
+    head-to-head record with each opponent and the weekly friends board. The moves you make during a
+    match pass through the server to your opponent but are not kept;</li>
+    <li><strong>Reports:</strong> if you report a player, who reported whom, when, the reported
+    username at that moment and the reason you picked ("their username" or "how they play");</li>
+    <li><strong>Daily totals</strong> with no IDs at all (for example how many invites were sent on a
+    day and how many players finished a first match).</li>
+  </ul>
+
+  <p><strong>Who sees what:</strong> anyone in a room with you, or holding its room code, sees your
+  username and picture during that room. Your friends also see whether you are in Play a Friend right
+  now, your head-to-head record with them, and your fastest run of the week on the weekly friends
+  board, which shows only you and your friends. A player you block cannot find you by your username,
+  invite you or join your room, and is not told they were blocked. A player you report is not told
+  who reported them.</p>
+
+  <p><strong>Your connection:</strong> the duel server sees your device's IP address while you are
+  connected. It never logs or stores it: to stop floods of fake sign-ups and room-code guessing, it
+  keeps a scrambled, one-way version of it in memory for at most an hour, with a key that changes
+  every time the server restarts. The company that hosts the duel server (Fly.io, in Los Angeles, United States) carries your
+  connection and may keep its own records of it, with the IP address, under its own privacy policy, for
+  security and fixing problems, as our database host does (see "Where it goes" above). We cannot see
+  any such record.</p>
+
+  <p><strong>Where it goes:</strong> profiles, matches, reports and totals are stored in our own
+  database at Supabase in Canada (the same project as gameplay statistics and purchases, but kept in
+  a separate area that only the duel server can reach). They are never connected to gameplay
+  statistics, purchase records or your shards, and never used for advertising.</p>
+
+  <p><strong>Why:</strong> to run Play a Friend (sign-in, friends, invites, rooms, matches,
+  records and the weekly board), and to keep it safe: blocking, reports, and limits on how fast one
+  connection or address can make usernames or guess room codes. We read reports to decide whether to
+  replace a username, ban a profile or do nothing. If three different players report the same
+  username, it is replaced at once with a neutral one (such as <code>Player_123456</code>) until we
+  look at it.</p>
+
+  <p><strong>On your device:</strong> your player ID, sign-in key and username, so the game can sign
+  you back in. Deleting the game, or clearing its data, deletes them; we cannot recover a profile
+  without that key, so you would start again as a new player.</p>
+
+  <p><strong>How long:</strong> your profile is kept until you delete it (or we ban it). Completed
+  matches are kept so your opponents' records stay correct; they hold player IDs, never names.
+  Reports are kept while needed to handle them and to deal with repeated problems (at most the most
+  recent 20,000). Daily totals contain no IDs and are kept while Play a Friend runs.</p>
+
+  <p><strong>Delete your username:</strong> in Play a Friend, open <strong>Profile</strong> and
+  choose <strong>Delete username</strong>, then <strong>Delete for good</strong>. This deletes your
+  profile (username, picture, sign-in key hash, friends, requests and blocks) from our server and
+  from your device, and removes you from other players' friends, requests and block lists at once.
+  Your completed matches stay in your opponents' records under an ID that no longer leads to any
+  name. Reports about you are closed; if a report about your username was still open, that username
+  cannot be taken again, otherwise anyone may choose it. Your levels, costumes and shards are not
+  affected. If you cannot use the game (for example a banned profile, or a device you no longer
+  have), email us your username and we will delete it.</p>
+
   <h2 id="update-check">Update check</h2>
   <p>From version 2.0.1, when the game starts, and when you come back to it, it asks our server
   whether this version can still be played or an update is available. The request carries no ID,
@@ -156,8 +234,9 @@
   <p>Your progress, best times, medals, earned shards, costumes and settings, your statistics choice,
   a note of whether this copy of the game was first installed with version 2.0 or earlier, the
   statistics waiting to be sent with today's ID, the earlier analytics ID (if you shared with version
-  1.0.0), the rating-prompt note and (from version 2.0.1) the last update-check answer and any optional
-  update you put off are stored on your device, in the game's own storage. Deleting
+  1.0.0), the rating-prompt note, (from version 2.0.1) the last update-check answer and any optional
+  update you put off, and your Play a Friend player ID, sign-in key and username are stored on your
+  device, in the game's own storage. Deleting
   the game deletes them; a new installation afterwards starts as new.</p>
 
   <h2>Children</h2>
@@ -171,22 +250,27 @@
   third-party analytics code, our database never stores the IP address, and summaries are deleted
   after 35 days. If you believe a child has shared statistics, turn them off in User Settings and
   email us today's statistics ID (in version 1.0.0, the Analytics ID) and we will delete that data.
-  Purchases can be blocked with Screen Time.</p>
+  Purchases can be blocked with Screen Time. Play a Friend has no chat or free text; usernames are
+  checked against a list of words that are not allowed, players can block and report each other, and
+  we replace or remove usernames that break the rules. A parent who wants a child's username deleted
+  can use Delete username in the game or email us the username.</p>
 
   <h2 id="choices">Your choices and rights</h2>
   <p>You can stop sharing at any time in User Settings. Depending on where you live, you may have the
   right to ask what data we hold about you, to correct or delete it, to object to its use or to take
   back your consent (which does not affect what happened before). Email us with today's statistics
   ID or the earlier analytics ID (for statistics) or the date of your purchase and Apple's order ID
-  (for purchase records). We use gameplay statistics only with your consent (Share Analytics), and
-  purchase records because we need them to provide what you bought. Our host's request logs serve
+  (for purchase records), or your username (for Play a Friend; or delete it yourself in the game).
+  We use gameplay statistics only with your consent (Share Analytics), purchase records because we
+  need them to provide what you bought, and Play a Friend data because we need it to provide Play a
+  Friend when you choose to use it and to keep it safe (blocking, reports and limits). Our host's request logs serve
   the security and running of the service. You can also complain to your local data protection
   authority.</p>
 
   <h2>Changes</h2>
   <p>We will post any changes on this page with a new date. If a version of the game ever shares
-  statistics by default somewhere instead of asking first, we will update this page before that
-  version is released, and the game will tell you and show how to turn them off.</p>
+  statistics by default somewhere instead of waiting for you to turn them on, we will update this
+  page before that version is released, and the game will tell you and show how to turn them off.</p>
 
   <footer>Grandpa Runs Sidewalk Splat by Oak Street Games. Contact: <a href="mailto:twocrazymojo@yahoo.com">twocrazymojo@yahoo.com</a>.</footer>
 </main>
